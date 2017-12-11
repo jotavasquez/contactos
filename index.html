@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">    
+                <a href="" class="brand-logo">Lista de contactos</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <!-- Modal Trigger -->
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">
+                            <i class="material-icons">add</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light btn">
+                            <i class="material-icons">search</i>
+                        </a>
+                    </li>
+                    <li>
+                        jQuery
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <div class="row">
+            <div class="col s11">
+                <h4>Contactos</h4>
+            </div>
+            <div id="close" class="col s1">
+                <a class="modal-close btn-floating btn-flat white">
+                    <i class="material-icons grey-text text-darken-3 push">close</i>
+                </a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="name" type="text" class="validate">
+                                <label for="name">Nombre</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="phone" type="tel" class="validate" >
+                                <label for="phone">Teléfono(10 digitos)</label>
+                            </div>
+                            <div id="add" class="btn grey lighten-2">
+                                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agregar</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
