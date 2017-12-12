@@ -46,6 +46,6 @@ $(document).ready(function () {
         $('#' + deleteId).click(function () {
             $('#' + contactId).remove();
         });
-    });    
+    });
 
 });
